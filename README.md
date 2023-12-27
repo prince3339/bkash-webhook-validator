@@ -122,7 +122,7 @@ Validate signature with the `validateSignature` method
    ```
 `isValid` will return boolean
 
-> [!NOTE]
+> [!IMPORTANT]
 <strong style="color:#EE4B2B">Bkash sends webhook payload where number includes two trailing zero, ex: 50.00. But Javascript by default ignores traling zero from numbers. In such case, directly passing the string data to `validateSignature` method will return `false`. You can resolve the issue by updating the string with the following hacky way:</strong>
 
 ```js
