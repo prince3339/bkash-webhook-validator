@@ -33,7 +33,7 @@
   <h3 align="center">Bkash Webhook Validation</h3>
 
   <p align="center">
-    Bkash RPP subscription API signature validation package!
+    Bkash RPP subscription API webhook data signature validation package!
     <br />
     <a href="https://github.com/prince3339/bkash-webhook-validation"><strong>Explore the docs »</strong></a>
     <br />
@@ -72,10 +72,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-It's a tiny package which under the hood uses other node packages to validate BKASH subscription API signature validation.
+It's a tiny package which under the hood uses other node packages to validate BKASH subscription API webhook signature validation.
 
 Here's why:
-* Validating Bkash subscription API data signature in nodejs is not straight forward as in Python or other languages
+* Validating Bkash subscription API webhook data signature in nodejs is not straight forward as in Python or other languages
 * This package helps to minimise the complexity to resolve Bkash signature validation for NodeJs Applications
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
