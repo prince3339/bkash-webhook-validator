@@ -2,9 +2,12 @@
   "name": "bkash-webhook-validation",
   "version": "1.0.0",
   "description": "Bkash webhook signature validation package",
-  "main": "index.js",
+  "source": "index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "parcel watch",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -31,6 +34,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^8.56.0",
+    "parcel": "^2.10.3"
   }
 }
