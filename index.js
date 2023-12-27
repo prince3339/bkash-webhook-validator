@@ -5,11 +5,11 @@ import {
 } from './utils/utils.js';
 
 export const validateSignature = ({
-  finalPayload,
+  payload,
   apiKey,
   signature
 }) => {
-  const payloadBuffer = Buffer.from(finalPayload, 'utf-8');
+  const payloadBuffer = Buffer.from(payload, 'utf-8');
 
   const urlSafeApiKey = URLSafeBase64.decode(apiKey);
   const decodedSignature = URLSafeBase64.decode(signature);
