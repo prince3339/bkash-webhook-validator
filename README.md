@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Bkash Webhook Validation</h3>
+  <h3 align="center">Bkash Webhook Validator</h3>
 
   <p align="center">
     Bkash RPP subscription API webhook data signature validation package!
