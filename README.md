@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/prince3339/bkash-webhook-validation/pull/73 -->
+<!-- Improved compatibility of back to top link: See: https://github.com/prince3339/bkash-webhook-validator/pull/73 -->
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -35,12 +35,12 @@
   <p align="center">
     Bkash RPP subscription API webhook data signature validation package!
     <br />
-    <a href="https://github.com/prince3339/bkash-webhook-validation"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/prince3339/bkash-webhook-validator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/prince3339/bkash-webhook-validation/issues">Report Bug</a>
+    <a href="https://github.com/prince3339/bkash-webhook-validator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/prince3339/bkash-webhook-validation/issues">Request Feature</a>
+    <a href="https://github.com/prince3339/bkash-webhook-validator/issues">Request Feature</a>
   </p>
 </div>
 
@@ -96,7 +96,7 @@ Here's why:
 
 Install NPM packages
    ```sh
-   npm install bkash-webhook-validation
+   npm install bkash-webhook-validator
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,7 +108,7 @@ Install NPM packages
 
 Validate signature with the `validateSignature` method
    ```js
-   import { validateSignature } from 'bkash-webhook-validation';
+   import { validateSignature } from 'bkash-webhook-validator';
 
    const examplePayload = '{"message":null,"timeStamp":"2023-11-08T09:50:30.137987Z","subscriptionRequestId":"abc-request-123","subscriptionId":13757,"subscriptionStatus":"SUCCEEDED","nextPaymentDate":"2023-11-09","amount":5,"trxId":"AK840FVMME","payer":"01725010001","frequency":"DAILY","trxDate":"2023-11-08T09:50:29"}'
 
@@ -139,7 +139,7 @@ You need to update any number value with two trailing zero before passing to the
 - [ ] Add typescript support
 - [ ] Add unit tests
 
-See the [open issues](https://github.com/prince3339/bkash-webhook-validation/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/prince3339/bkash-webhook-validator/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,23 +177,23 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Sabbir Ahmed Siddiquee - sabbirprince39@gmail.com
 
-Project Link: [https://github.com/prince33339/bkash-webhook-validation](https://github.com/prince33339/bkash-webhook-validation)
+Project Link: [https://github.com/prince33339/bkash-webhook-validator](https://github.com/prince33339/bkash-webhook-validator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/prince3339/bkash-webhook-validation.svg?style=for-the-badge
-[contributors-url]: https://github.com/prince3339/bkash-webhook-validation/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/prince3339/bkash-webhook-validation.svg?style=for-the-badge
-[forks-url]: https://github.com/prince3339/bkash-webhook-validation/network/members
-[stars-shield]: https://img.shields.io/github/stars/prince3339/bkash-webhook-validation.svg?style=for-the-badge
-[stars-url]: https://github.com/prince3339/bkash-webhook-validation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/prince3339/bkash-webhook-validation.svg?style=for-the-badge
-[issues-url]: https://github.com/prince3339/bkash-webhook-validation/issues
-[license-shield]: https://img.shields.io/github/license/prince3339/bkash-webhook-validation.svg?style=for-the-badge
-[license-url]: https://github.com/prince3339/bkash-webhook-validation/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/prince3339/bkash-webhook-validator.svg?style=for-the-badge
+[contributors-url]: https://github.com/prince3339/bkash-webhook-validator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/prince3339/bkash-webhook-validator.svg?style=for-the-badge
+[forks-url]: https://github.com/prince3339/bkash-webhook-validator/network/members
+[stars-shield]: https://img.shields.io/github/stars/prince3339/bkash-webhook-validator.svg?style=for-the-badge
+[stars-url]: https://github.com/prince3339/bkash-webhook-validator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/prince3339/bkash-webhook-validator.svg?style=for-the-badge
+[issues-url]: https://github.com/prince3339/bkash-webhook-validator/issues
+[license-shield]: https://img.shields.io/github/license/prince3339/bkash-webhook-validator.svg?style=for-the-badge
+[license-url]: https://github.com/prince3339/bkash-webhook-validator/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/prince3339
 [product-screenshot]: images/screenshot.png

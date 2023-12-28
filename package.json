@@ -1,6 +1,6 @@
 {
-  "name": "bkash-webhook-validation",
-  "version": "1.0.1",
+  "name": "bkash-webhook-validator",
+  "version": "1.0.0",
   "description": "Bkash webhook signature validation package",
   "source": "index.js",
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prince3339/bkash-webhook-validation.git"
+    "url": "git+https://github.com/prince3339/bkash-webhook-validator.git"
   },
   "keywords": [
     "Bkash",
@@ -28,9 +28,9 @@
   "author": "Sabbir Ahmed Siddiquee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prince3339/bkash-webhook-validation/issues"
+    "url": "https://github.com/prince3339/bkash-webhook-validator/issues"
   },
-  "homepage": "https://github.com/prince3339/bkash-webhook-validation#readme",
+  "homepage": "https://github.com/prince3339/bkash-webhook-validator#readme",
   "dependencies": {
     "crypto": "^1.0.1",
     "urlsafe-base64": "^1.0.0"
