@@ -1,6 +1,6 @@
 {
   "name": "bkash-webhook-validation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bkash webhook signature validation package",
   "source": "index.js",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
     "watch": "parcel watch",
     "build": "parcel build",
     "publish": "cd dist && npm publish",
-    "prepublish": "npm run build && cp package.json README.md LICENSE dist",
+    "prepublish": "npm run build && cp package.json README.md LICENSE .npmrc dist",
     "postpublish": "rm dist/package.json dist/README.md dist/LICENSE"
   },
   "repository": {
