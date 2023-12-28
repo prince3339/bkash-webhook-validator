@@ -9,8 +9,8 @@
     "watch": "parcel watch",
     "build": "parcel build",
     "publish": "cd dist && npm publish",
-    "prepublish": "npm run build && cp package.json README.md LICENSE .npmrc dist",
-    "postpublish": "rm dist/package.json dist/README.md dist/LICENSE"
+    "prepublish": "npm run build && test -f .npmrc && cp .npmrc dist || true && cp package.json README.md LICENSE dist",
+    "postpublish": "test -f dist/.npmrc && rm dist/.npmrc || true && rm dist/package.json dist/README.md dist/LICENSE"
   },
   "repository": {
     "type": "git",
