@@ -72,11 +72,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-It's a tiny package which under the hood uses other node packages to validate BKASH subscription API webhook signature validation.
+It's a tiny package that under the hood uses other node packages to validate BKASH subscription API webhook signature validation.
 
 Here's why:
-* Validating Bkash subscription API webhook data signature in nodejs is not straight forward as in Python or other languages
-* This package helps to minimise the complexity to resolve Bkash signature validation for NodeJs Applications
+* Validating Bkash subscription API webhook data signature in nodejs is not as straightforward as in Python or other languages
+* This package helps to minimize the complexity of resolving Bkash signature validation for NodeJs Applications
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,12 +122,12 @@ Validate signature with the `validateSignature` method
 `isValid` will return boolean
 
 > [!IMPORTANT]
-<strong style="color:#EE4B2B">Bkash sends webhook payload where number includes two trailing zero, ex: 50.00. But Javascript by default ignores traling zero from numbers. In such case, directly passing the string data to `validateSignature` method will return `false`. You can resolve the issue by updating the string with the following hacky way:</strong>
+<strong style="color:#EE4B2B">Bkash sends a webhook payload where the number includes two trailing zeros, ex: 50.00. But Javascript by default ignores trailing zero from numbers. In such case, directly passing the string data to `validateSignature` method will return `false`. You can resolve the issue by updating the string in the following hacky way:</strong>
 
 ```js
 examplePayload.replace(`"amount":${amount}`, `"amount":${amount.toFixed(2)}`)
 ```
-You need to update any number value with two trailing zero before passing to the `validationSignature` method
+You need to update any number value with two trailing zeros before passing to the `validationSignature` method
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +148,7 @@ See the [open issues](https://github.com/prince3339/bkash-webhook-validator/issu
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
