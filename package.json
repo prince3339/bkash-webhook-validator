@@ -1,6 +1,6 @@
 {
   "name": "bkash-webhook-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bkash webhook signature validation package",
   "source": "index.js",
   "main": "dist/index.js",
