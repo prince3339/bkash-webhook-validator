@@ -177,7 +177,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Sabbir Ahmed Siddiquee - sabbirprince39@gmail.com
 
-Project Link: [https://github.com/prince33339/bkash-webhook-validator](https://github.com/prince33339/bkash-webhook-validator)
+Project Link: [https://github.com/prince3339/bkash-webhook-validator](https://github.com/prince3339/bkash-webhook-validator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
