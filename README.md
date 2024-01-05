@@ -127,7 +127,7 @@ Validate signature with the `validateSignature` method
 ```js
 examplePayload.replace(`"amount":${amount}`, `"amount":${amount.toFixed(2)}`)
 ```
-You need to update any number value with two trailing zeros before passing to the `validationSignature` method
+You need to update Webhook Bkash amount value with two trailing zeros before passing to the `validationSignature` method
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
