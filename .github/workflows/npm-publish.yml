@@ -30,8 +30,5 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run publish
-      - run: |
-             ls -l
-             ls -l dist
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
